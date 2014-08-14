@@ -1,0 +1,4 @@
+SAR
+===
+
+Stroke Authorship Recognition
