@@ -1,0 +1,108 @@
+%%% template.tex
+%%%
+%%% This LaTeX source document can be used as the basis for your technical
+%%% paper or abstract. Intentionally stripped of annotation, the parameters
+%%% and commands should be adjusted for your particular paper - title,
+%%% author, article DOI, etc.
+%%% The accompanying ``template.annotated.tex'' provides copious annotation
+%%% for the commands and parameters found in the source document. (The code
+%%% is identical in ``template.tex'' and ``template.annotated.tex.'')
+
+\documentclass[annual]{acmsiggraph}
+%\documentclass[review]{acmsiggraph}	
+\usepackage{epstopdf}
+\usepackage{float}
+\usepackage{subfigure}
+
+\usepackage{verbatim}
+\usepackage{subfigure}
+\usepackage{array}
+
+
+
+\TOGonlineid{0089}% old -> 0161
+\TOGvolume{0}
+\TOGnumber{0}
+\TOGarticleDOI{1111111.2222222}
+\TOGprojectURL{}
+\TOGvideoURL{}
+\TOGdataURL{}
+\TOGcodeURL{}
+\newcommand{\SARA}[1]{{\color{blue}[Sara: #1]}}
+\newcommand{\B}[1]{{\color{red}[Bernard: #1]}}
+
+
+\title{SAR: Stroke Authorship Recognition}
+
+\teaser{\includegraphics[width = 1.0\textwidth]{images/fullPipeline.jpg}
+\vspace{-5mm}\caption {The SAR pipeline consists of: 1. obtaining sketches from different artists; 2. extracting strokes; 3. splitting strokes into segments; 4. representing each sketch using features derived from segment characteristics; 5. recognizing authorship based on this representation.}\vspace{-2mm}
+\label{pipeline}}
+
+\author{first author \thanks{e-mail:rsmith@gmail.com}\\King Abdullah University of Science and Technology KAUST}
+\pdfauthor{Second Author}
+
+\keywords{radiosity, global illumination, constant time}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+\input{abstract}
+\end{abstract}
+
+%\begin{CRcatlist}
+%  \CRcat{I.3.3}{Computer Graphics}{Three-Dimensional Graphics and Realism}{Display Algorithms}
+%  \CRcat{I.3.7}{Computer Graphics}{Three-Dimensional Graphics and Realism}{Radiosity};
+%\end{CRcatlist}
+
+%\keywordlist
+
+\TOGlinkslist
+
+\copyrightspace
+\vspace{-2mm}
+\section{Introduction}
+\vspace{-2mm}
+\input{introduction}
+
+\vspace{-2mm}
+\section{Related Work}
+\vspace{-2mm}
+\input{relatedWork}
+
+\vspace{-2mm}
+\section{Stroke Authorship Recognition} \label{sec:SAR}
+\vspace{-2mm}
+\input{strokeAuthorshipRecognition}
+
+
+\vspace{-2mm}
+\section{Sketch Datasets}\label{sec:datasets}
+\vspace{-2mm}
+\input{multipleDatasetsCreation}
+
+\vspace{-2mm}
+\section{Human Sketch Authorship Recognition}\label{sec:humanexps}
+\vspace{-2mm}
+\input{humanStrokeAuthorshipRecognition}
+
+%\vspace{-2mm}
+\section{Experimental Results and Evaluation}\label{sec:exp}
+\vspace{-2mm}
+\input{experimentalResultsandEvaluation}
+
+\vspace{-2mm}
+\section{Applications} \label{sec:app}
+\vspace{-2mm}
+\input{applications}
+
+%\vspace{-2mm}
+\section{Conclusions and Future Work}\label{sec:conclusions}
+\vspace{-2mm}
+
+
+\input{discussion}
+%\section{Conclusions and Future Work}
+%\input{conclusion}
+\bibliographystyle{acmsiggraph}
+\bibliography{template}
+\end{document}

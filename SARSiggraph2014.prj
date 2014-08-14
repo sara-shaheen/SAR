@@ -1,0 +1,63 @@
+0 Patch Control
+
+0
+0
+1
+template.tex
+13
+1
+0
+
+template.tex
+TeX:UNIX
+403812347 0 -1 0 -1 655 25 25 2206 811 0 319 448 -1 -1 0 0 16 -1 -1 16 1 0 655 -1   0
+relatedWork.tex
+TeX:UNIX
+269594619 0 -1 0 -1 2077 50 50 2043 836 0 95 588 -1 -1 0 0 159 -1 -1 159 1 0 2077 -1   0
+abstract.tex
+TeX:UNIX
+269594619 0 15 73 -1 1333 75 75 2093 829 0 697 224 -1 -1 0 0 162 -1 -1 162 1 0 1333 -1   0
+:\KAUST\teaching\Fall2013\Optimization-AMCS211\exams\final\final_exam.tex
+TeX
+286273531 0 -1 6718 -1 6719 25 25 2256 725 0 487 476 -1 -1 0 0 29 -1 -1 29 1 0 6719 -1   0
+:\KAUST\teaching\Fall2013\Optimization-AMCS211\homework\HW05\HW05.tex
+TeX
+269496315 0 -1 1915 -1 1915 25 25 2256 725 0 67 588 -1 -1 0 0 25 -1 -1 25 1 0 1915 -1   0
+:\KAUST\teaching\Fall2013\Optimization-AMCS211\homework\HW04\HW04.tex
+TeX
+269496315 0 27 23 -1 581 25 25 2256 685 0 25 168 -1 -1 0 0 25 -1 -1 25 1 0 581 -1   0
+:\KAUST\teaching\Fall2013\Optimization-AMCS211\homework\HW03\HW03.tex
+TeX
+269496315 0 -1 7026 -1 6902 0 0 854 323 0 2139 -303 -1 -1 0 0 25 -1 -1 25 1 0 6902 -1   0
+:\KAUST\teaching\Fall2013\Optimization-AMCS211\homework\HW02\HW02.tex
+TeX
+269496315 0 -1 5288 -1 4527 25 25 2231 777 0 25 532 -1 -1 0 0 25 -1 -1 25 1 0 4527 -1   0
+:\KAUST\teaching\Fall2013\Optimization-AMCS211\homework\HW01\HW01.tex
+TeX
+286273531 0 -1 693 -1 845 0 0 2073 694 0 235 -840 -1 -1 0 0 25 -1 -1 25 1 0 845 -1   0
+C:\Users\GHANEMBS\AppData\Roaming\WinEdt Team\WinEdt 7\Config\Adobe.edt
+ASCII:EDT
+269494138 4 84 51 84 50 25 25 1804 777 1 465 646 -1 -1 0 0 -1 -1 -1 -1 1 0 50 84   0
+C:\Program Files (x86)\WinEdt Team\WinEdt 7\Exec\PDF\PDFCloseDoc.edt
+ASCII:EDT
+269494138 7 58 2382 58 1 75 75 2148 729 1 73 476 -1 -1 0 0 21 0 0 21 1 0 1 58   0
+:\Google Drive\publications\ICCV\ICCV2013\ICCV2013_LRC\ICCV2013_LRC.tex
+TeX:UNIX
+269594619 0 -1 1252 -1 1169 250 250 2323 904 0 361 392 -1 -1 0 0 51 -1 -1 51 1 0 1169 -1   0
+:\Google Drive\publications\ACCV\ACCV 2010\dynamic_swarms\dynamic_swarms.tex
+TeX:UNIX
+269594619 1 -1 1214 -1 1204 25 25 2098 719 0 25 280 -1 -1 0 0 85 -1 -1 85 1 0 1204 -1   0
+
+*template.tex
+>
+*abstract
+*introduction
+*relatedWork
+*strokeAuthorshipRecognition
+*multipleDatasetsCreation
+*humanStrokeAuthorshipRecognition
+*experimentalResultsandEvaluation
+*applications
+*discussion
+*template.bib
+<

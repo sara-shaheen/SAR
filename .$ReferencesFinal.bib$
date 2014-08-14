@@ -1,0 +1,467 @@
+% This file was created with JabRef 2.9.2.
+% Encoding: Cp1252
+
+@INPROCEEDINGS{conf/cvpr/CohenH98,
+  author = {Cohen, Isaac and Herlin, Isabelle},
+  title = {Curves Matching Using Geodesic Paths.},
+  booktitle = {CVPR},
+  year = {1998},
+  pages = {741-746},
+  publisher = {IEEE Computer Society},
+  __markedentry = {[shaheesm:1]},
+  added-at = {2012-06-01T00:00:00.000+0200},
+  biburl = {http://www.bibsonomy.org/bibtex/26e4c3b636e409f42cb548407c544c21e/dblp},
+  crossref = {conf/cvpr/1998},
+  ee = {http://doi.ieeecomputersociety.org/10.1109/CVPR.1998.698686},
+  interhash = {c36d3109ca7e4aa1f3abd1338eaa8689},
+  intrahash = {6e4c3b636e409f42cb548407c544c21e},
+  isbn = {0-8186-8497-6},
+  keywords = {dblp},
+  timestamp = {2012-06-01T00:00:00.000+0200},
+  url = {http://dblp.uni-trier.de/db/conf/cvpr/cvpr1998.html#CohenH98}
+}
+
+@ARTICLE{Bai:2008:DRC:1361741.1361848,
+  author = {Bai, Xiang and Yang, Xingwei and Latecki, Longin Jan},
+  title = {Detection and recognition of contour parts based on shape similarity},
+  journal = {Pattern Recogn.},
+  year = {2008},
+  volume = {41},
+  pages = {2189--2199},
+  number = {7},
+  month = jul,
+  __markedentry = {[shaheesm:1]},
+  acmid = {1361848},
+  address = {New York, NY, USA},
+  doi = {10.1016/j.patcog.2007.12.016},
+  issn = {0031-3203},
+  issue_date = {July, 2008},
+  keywords = {Detection of contour parts, Parts of visual form, Shape similarity},
+  numpages = {11},
+  publisher = {Elsevier Science Inc.},
+  url = {http://dx.doi.org/10.1016/j.patcog.2007.12.016}
+}
+
+@INPROCEEDINGS{belongie2001matching,
+  author = {Belongie, S. and Malik, J. and Puzicha, J.},
+  title = {Matching shapes},
+  booktitle = {Computer Vision, 2001. ICCV 2001. Proceedings. Eighth IEEE International
+	Conference on},
+  year = {2001},
+  volume = {1},
+  pages = {454--461},
+  organization = {IEEE},
+  __markedentry = {[shaheesm:1]}
+}
+
+@INPROCEEDINGS{berg2005shape,
+  author = {Berg, A.C. and Berg, T.L. and Malik, J.},
+  title = {Shape matching and object recognition using low distortion correspondences},
+  booktitle = {Computer Vision and Pattern Recognition, 2005. CVPR 2005. IEEE Computer
+	Society Conference on},
+  year = {2005},
+  volume = {1},
+  pages = {26--33},
+  organization = {IEEE},
+  __markedentry = {[shaheesm:1]}
+}
+
+@ARTICLE{Berger:2013:SAP:2461912.2461964,
+  author = {Berger, Itamar and Shamir, Ariel and Mahler, Moshe and Carter, Elizabeth
+	and Hodgins, Jessica},
+  title = {Style and Abstraction in Portrait Sketching},
+  journal = {ACM Trans. Graph.},
+  year = {2013},
+  volume = {32},
+  pages = {55:1--55:12},
+  number = {4},
+  month = jul,
+  __markedentry = {[shaheesm:1]},
+  acmid = {2461964},
+  address = {New York, NY, USA},
+  articleno = {55},
+  doi = {10.1145/2461912.2461964},
+  issn = {0730-0301},
+  issue_date = {July 2013},
+  keywords = {NPR, abstraction, portrait sketching, style},
+  numpages = {12},
+  publisher = {ACM},
+  url = {http://doi.acm.org/10.1145/2461912.2461964}
+}
+
+@ARTICLE{bookstein1979fitting,
+  author = {Bookstein, F.L.},
+  title = {Fitting conic sections to scattered data},
+  journal = {Computer Graphics and Image Processing},
+  year = {1979},
+  volume = {9},
+  pages = {56--71},
+  number = {1},
+  __markedentry = {[shaheesm:1]},
+  publisher = {Elsevier}
+}
+
+@ARTICLE{Chalechale05sketch-basedimage,
+  author = {Abdolah Chalechale and Student Member and Golshah Naghdy and Alfred
+	Mertins and Senior Member},
+  title = {Sketch-Based Image Matching Using Angular Partitioning},
+  journal = {IEEE Trans. Systems, Man, and Cybernetics},
+  year = {2005},
+  volume = {35},
+  pages = {28--41}
+}
+
+@ARTICLE{Cole:2008:PDL:1360612.1360687,
+  author = {Cole, Forrester and Golovinskiy, Aleksey and Limpaecher, Alex and
+	Barros, Heather Stoddart and Finkelstein, Adam and Funkhouser, Thomas
+	and Rusinkiewicz, Szymon},
+  title = {Where Do People Draw Lines?},
+  journal = {ACM Trans. Graph.},
+  year = {2008},
+  volume = {27},
+  pages = {88:1--88:11},
+  number = {3},
+  month = aug,
+  __markedentry = {[shaheesm:1]},
+  acmid = {1360687},
+  address = {New York, NY, USA},
+  articleno = {88},
+  doi = {10.1145/1360612.1360687},
+  issn = {0730-0301},
+  issue_date = {August 2008},
+  numpages = {11},
+  publisher = {ACM},
+  url = {http://doi.acm.org/10.1145/1360612.1360687}
+}
+
+@ARTICLE{eitz2012hdhso,
+  author = {Eitz, Mathias and Hays, James and Alexa, Marc},
+  title = {How Do Humans Sketch Objects?},
+  journal = {ACM Trans. Graph. (Proc. SIGGRAPH)},
+  year = {2012},
+  volume = {31},
+  pages = {44:1--44:10},
+  number = {4},
+  __markedentry = {[shaheesm:1]}
+}
+
+@ARTICLE{Fischler:1994:LPS:628309.628560,
+  author = {Fischler, M. A. and Wolf, H. C.},
+  title = {Locating Perceptually Salient Points on Planar Curves},
+  journal = {IEEE Trans. Pattern Anal. Mach. Intell.},
+  year = {1994},
+  volume = {16},
+  pages = {113--129},
+  number = {2},
+  month = feb,
+  __markedentry = {[shaheesm:3]},
+  acmid = {628560},
+  address = {Washington, DC, USA},
+  doi = {10.1109/34.273737},
+  issn = {0162-8828},
+  issue_date = {February 1994},
+  keywords = {curve partitioning, image segmentation, perceptually salient point
+	location, planar curves},
+  numpages = {17},
+  publisher = {IEEE Computer Society},
+  url = {http://dx.doi.org/10.1109/34.273737}
+}
+
+@ARTICLE{Freeman03learningstyle,
+  author = {William T. Freeman and Joshua B. Tenenbaum and Egon C. Pasztor},
+  title = {Learning style translation for the lines of a drawing},
+  journal = {ACM Transactions on Graphics},
+  year = {2003},
+  volume = {22},
+  pages = {33--46},
+  __markedentry = {[shaheesm:1]}
+}
+
+@ARTICLE{ion-cviu-11,
+  author = {A. Ion and N. M. Artner and G. Peyr{\'e} and W. G. Kropatsch and
+	L. D. Cohen},
+  title = {Matching 2D and 3D Articulated Shapes Using the Eccentricity Transform},
+  journal = {Computer Vision and Image Understanding},
+  year = {2011},
+  volume = {115},
+  pages = {817--834},
+  number = {6},
+  __markedentry = {[shaheesm:1]},
+  doi = {doi:10.1016/j.cviu.2011.02.006},
+  gsid = {6889377486958074967},
+  url = {http://hal.archives-ouvertes.fr/hal-00365019/}
+}
+
+@INPROCEEDINGS{jin2003image,
+  author = {Jin, R. and Hauptmann, A.G. and Yan, R.},
+  title = {Image classification using a bigram model},
+  booktitle = {AAAI Spring Symposium on Intelligent Multimedia Knowledge Management},
+  year = {2003},
+  __markedentry = {[shaheesm:1]}
+}
+
+@ARTICLE{Kalogerakis:2012:mlhatching,
+  author = {Evangelos Kalogerakis and Derek Nowrouzezahrai and Simon Breslav
+	and Aaron Hertzmann},
+  title = {Learning Hatching for Pen-and-Ink Illustration of Surfaces},
+  journal = {ACM Transactions on Graphics},
+  year = {2012},
+  volume = {31},
+  number = {1},
+  __markedentry = {[shaheesm:1]}
+}
+
+@ARTICLE{Kyprianidis:2013:TAS,
+  author = {Kyprianidis, Jan Eric and Collomosse, John and Wang, Tinghuai and
+	Isenberg, Tobias},
+  title = {State of the ‘Art’: A Taxonomy of Artistic Stylization Techniques
+	for Images and Video},
+  journal = {IEEE Transactions on Visualization and Computer Graphics},
+  year = {2013},
+  volume = {19},
+  pages = {866--885},
+  number = {5},
+  __markedentry = {[shaheesm:1]},
+  doi = {10.1109/TVCG.2012.160}
+}
+
+@INPROCEEDINGS{latecki2000shape,
+  author = {Latecki, L.J. and Lakamper, R. and Eckhardt, T.},
+  title = {Shape descriptors for non-rigid shapes with a single closed contour},
+  booktitle = {Computer Vision and Pattern Recognition, 2000. Proceedings. IEEE
+	Conference on},
+  year = {2000},
+  volume = {1},
+  pages = {424--429},
+  organization = {IEEE},
+  __markedentry = {[shaheesm:1]}
+}
+
+@ARTICLE{Latecki:2000:SSM:354167.354193,
+  author = {Latecki, Longin Jan and Lak\"{a}mper, Rolf},
+  title = {Shape Similarity Measure Based on Correspondence of Visual Parts},
+  journal = {IEEE Trans. Pattern Anal. Mach. Intell.},
+  year = {2000},
+  volume = {22},
+  pages = {1185--1190},
+  number = {10},
+  month = oct,
+  __markedentry = {[shaheesm:1]},
+  acmid = {354193},
+  address = {Washington, DC, USA},
+  doi = {10.1109/34.879802},
+  issn = {0162-8828},
+  issue_date = {October 2000},
+  keywords = {Shape representation, shape similarity measure, visual parts, discrete
+	curve evolution.},
+  numpages = {6},
+  publisher = {IEEE Computer Society},
+  url = {http://dx.doi.org/10.1109/34.879802}
+}
+
+@ARTICLE{Limpaecher:2013:RDA:2461912.2462016,
+  author = {Limpaecher, Alex and Feltman, Nicolas and Treuille, Adrien and Cohen,
+	Michael},
+  title = {Real-time drawing assistance through crowdsourcing},
+  journal = {ACM Trans. Graph.},
+  year = {2013},
+  volume = {32},
+  pages = {54:1--54:8},
+  number = {4},
+  month = jul,
+  __markedentry = {[shaheesm:1]},
+  acmid = {2462016},
+  address = {New York, NY, USA},
+  articleno = {54},
+  doi = {10.1145/2461912.2462016},
+  issn = {0730-0301},
+  issue_date = {July 2013},
+  keywords = {crowdsourcing, interactive drawings},
+  numpages = {8},
+  publisher = {ACM},
+  review = {DrawAFriend is a valuable app for data collection! 
+	
+	
+	paper methodoligy and contirbution is totally different than our research!},
+  url = {http://doi.acm.org/10.1145/2461912.2462016}
+}
+
+@INPROCEEDINGS{Lu:2012:HES,
+  author = {Jingwan Lu and Fisher Yu and Adam Finkelstein and Stephen DiVerdi},
+  title = {HelpingHand: Example-based Stroke Stylization},
+  booktitle = {ACM Transactions on Graphics (Proc. SIGGRAPH)},
+  year = {2012},
+  volume = {31},
+  number = {4},
+  pages = {46:1--46:10},
+  month = aug,
+  __markedentry = {[shaheesm:1]}
+}
+
+@ARTICLE{Michel:2011:SID:1994006.1994152,
+  author = {Michel, Damien and Oikonomidis, Iasonas and Argyros, Antonis},
+  title = {Scale invariant and deformation tolerant partial shape matching},
+  journal = {Image Vision Comput.},
+  year = {2011},
+  volume = {29},
+  pages = {459--469},
+  number = {7},
+  month = jun,
+  __markedentry = {[shaheesm:1]},
+  acmid = {1994152},
+  address = {Newton, MA, USA},
+  doi = {10.1016/j.imavis.2011.01.008},
+  issn = {0262-8856},
+  issue_date = {June, 2011},
+  keywords = {2D shape descriptors, Dynamic programming, Partial shape matching},
+  numpages = {11},
+  publisher = {Butterworth-Heinemann},
+  url = {http://dx.doi.org/10.1016/j.imavis.2011.01.008}
+}
+
+@ARTICLE{Mokhtarian:1992:TMC:138774.138775,
+  author = {Mokhtarian, Farzin and Mackworth, Alan K.},
+  title = {A Theory of Multiscale, Curvature-Based Shape Representation for
+	Planar Curves},
+  journal = {IEEE Trans. Pattern Anal. Mach. Intell.},
+  year = {1992},
+  volume = {14},
+  pages = {789--805},
+  number = {8},
+  month = aug,
+  __markedentry = {[shaheesm:1]},
+  acmid = {138775},
+  address = {Washington, DC, USA},
+  doi = {10.1109/34.149591},
+  issn = {0162-8828},
+  issue_date = {August 1992},
+  keywords = {arc length evolution, curvature scale space image, image processing,
+	multiscale curvature based shape representation, pattern recognition,
+	picture processing, planar curves, renormalized curvature scale space
+	image, resampled curvature scale space image},
+  numpages = {17},
+  publisher = {IEEE Computer Society},
+  url = {http://dx.doi.org/10.1109/34.149591}
+}
+
+@ARTICLE{Mori2005,
+  author = {Greg Mori and Serge Belongie and Jitendra Malik},
+  title = {Efficient Shape Matching Using Shape Contexts},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year = {2005},
+  volume = {27},
+  pages = {1832-1837},
+  number = {11},
+  month = {November},
+  __markedentry = {[shaheesm:1]}
+}
+
+@BOOK{Soille:2003:MIA:773286,
+  title = {Morphological Image Analysis: Principles and Applications},
+  publisher = {Springer-Verlag New York, Inc.},
+  year = {2003},
+  author = {Soille, Pierre},
+  address = {Secaucus, NJ, USA},
+  edition = {2},
+  __markedentry = {[shaheesm:3]},
+  isbn = {3540429883}
+}
+
+@INPROCEEDINGS{Sun:2012:QST:2393347.2393421,
+  author = {Sun, Zhenbang and Wang, Changhu and Zhang, Liqing and Zhang, Lei},
+  title = {Query-adaptive shape topic mining for hand-drawn sketch recognition},
+  booktitle = {Proceedings of the 20th ACM international conference on Multimedia},
+  year = {2012},
+  series = {MM '12},
+  pages = {519--528},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  __markedentry = {[shaheesm:1]},
+  acmid = {2393421},
+  doi = {10.1145/2393347.2393421},
+  isbn = {978-1-4503-1089-5},
+  keywords = {query-adaptive shape topic model, sketch recognition, sketch-based
+	image search},
+  location = {Nara, Japan},
+  numpages = {10},
+  url = {http://doi.acm.org/10.1145/2393347.2393421}
+}
+
+@INPROCEEDINGS{Sun:2012:SAH:2393347.2396429,
+  author = {Sun, Zhenbang and Wang, Changhu and Zhang, Liqing and Zhang, Lei},
+  title = {Sketch2Tag: automatic hand-drawn sketch recognition},
+  booktitle = {Proceedings of the 20th ACM international conference on Multimedia},
+  year = {2012},
+  series = {MM '12},
+  pages = {1255--1256},
+  address = {New York, NY, USA},
+  publisher = {ACM},
+  __markedentry = {[shaheesm:1]},
+  acmid = {2396429},
+  doi = {10.1145/2393347.2396429},
+  isbn = {978-1-4503-1089-5},
+  keywords = {sketch recognition, sketch-based image search},
+  location = {Nara, Japan},
+  numpages = {2},
+  url = {http://doi.acm.org/10.1145/2393347.2396429}
+}
+
+@ARTICLE{journals/pami/Taubin91,
+  author = {Taubin, Gabriel},
+  title = {Estimation of Planar Curves, Surfaces, and Nonplanar Space Curves
+	Defined by Implicit Equations with Applications to Edge and Range
+	Image Segmentation.},
+  journal = {IEEE Trans. Pattern Anal. Mach. Intell.},
+  year = {1991},
+  volume = {13},
+  pages = {1115-1138},
+  number = {11},
+  __markedentry = {[shaheesm:3]},
+  added-at = {2011-11-07T00:00:00.000+0100},
+  biburl = {http://www.bibsonomy.org/bibtex/2bf1b9bfcbb8af2480930d09a10f45a5a/dblp},
+  ee = {http://doi.ieeecomputersociety.org/10.1109/34.103273},
+  interhash = {0261b59c6f2d2fe9a9c3024bdbdfdb89},
+  intrahash = {bf1b9bfcbb8af2480930d09a10f45a5a},
+  keywords = {dblp},
+  timestamp = {2011-11-07T00:00:00.000+0100},
+  url = {http://dblp.uni-trier.de/db/journals/pami/pami13.html#Taubin91}
+}
+
+@ARTICLE{taubin1991estimation,
+  author = {Taubin, G.},
+  title = {Estimation of planar curves, surfaces, and nonplanar space curves
+	defined by implicit equations with applications to edge and range
+	image segmentation},
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year = {1991},
+  volume = {13},
+  pages = {1115--1138},
+  number = {11},
+  __markedentry = {[shaheesm:1]}
+}
+
+@ARTICLE{Wolfson90:0,
+  author = {Haim J. Wolfson},
+  title = {On curve matching},
+  journal = {IEEE Trans. Pattern Anal. Mach. Intell.},
+  year = {1990},
+  volume = {12},
+  pages = {483-489},
+  number = {5},
+  __markedentry = {[shaheesm:1]},
+  citedby = {0},
+  cites = {0}
+}
+
+@ARTICLE{zhong2007direct,
+  author = {Zhong, B. and Liao, W.},
+  title = {Direct curvature scale space: Theory and corner detection},
+  journal = {Pattern Analysis and Machine Intelligence, IEEE Transactions on},
+  year = {2007},
+  volume = {29},
+  pages = {508--512},
+  number = {3},
+  __markedentry = {[shaheesm:1]},
+  publisher = {IEEE}
+}
+

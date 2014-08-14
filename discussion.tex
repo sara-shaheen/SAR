@@ -1,0 +1,62 @@
+In this paper, we shed light on a new direction in sketch analysis, namely authorship recognition through stroke analysis. We propose a stroke authorship recognition (SAR) approach that discriminates between artistic sketch styles based on the choice and frequency of use of basic strokes. From our extensive experiments and user studies, we provide empirical evidence regarding four interesting conclusions related to sketch analysis.
+
+%In this paper, we propose a novel stroke authorship recognition (SAR) method that sheds light on a new direction in sketch analysis, namely authorship recognition through stroke analysis. To discriminate between authors based on their choice and frequency of use of strokes in their sketches, SAR focuses on representing each sketch image as a histogram of stroke segments from a learned universal dictionary. From our extensive experiments and user studies, we provide empirical evidence regarding four interesting conclusions related to sketch analysis.
+
+%\begin{itemize}
+%\item Based on results in Section \ref{subsec:recognition}, we conclude that SAR \emph{does} encode unique and consistent characteristics of an artist's sketching style, which are in turn used to discriminate one artist's sketches from others. A particular outcome of this result is SAR's ability to successfully detect fraudulent sketches given a set of original sketches. This conclusion justifies SAR's applicability to important real-world tasks, such as sketch fraud detection (e.g. for design patents and cartoon characters) and training/teaching artistic style.
+%
+%\item Interestingly, the extent to which SAR can be used for discrimination is highly dependent on the sketching constraints imposed on the artist. Although overall SAR accuracy decreases with more constraints, unique elements of artistic style are still preserved even under the strictest of constraints (fraud).
+%
+%\item We identified that a sketch's silhouette is a richer source of discriminative information than internal strokes in general. We validate the choice of our proposed segmentation method from a classification point-of-view, as well as, determine the optimal levels of digitization needed for accurate representation.
+%
+%\item All our conclusions are made possible by compiling multiple sketch datasets with various sketching constraints and content. Our extensive user studies empirically validate the difficulty of this fine-grained classification problem and indicate that our SAR approach can improve upon human performance. All the compiled data (datasets and user studies) will be made publicly available to enable further research on this exciting topic and to allow for quantitative comparison with future methods.
+%\end{itemize}
+
+
+\emph{Uniqueness of Sketch Style.} Based on results in Section \ref{subsec:recognition}, we conclude that SAR \emph{does} encode unique and consistent characteristics of an artist's sketching style, which are in turn used to discriminate one artist's sketches from others. This result validates SAR's applicability in important real-world tasks, such as sketch fraud detection (e.g. for design patents and cartoon characters) and training/teaching artistic style.
+
+\emph{Style and Sketch Constraints.} The extent to which SAR can be used for discrimination is dependent on the sketching constraints imposed on the artist. Although overall SAR accuracy decreases with more constraints, unique elements of artistic style still persist even under the strictest of constraints (fraud).
+
+\emph{Silhouettes.} We identify that a sketch's silhouette is a richer source of discriminative information than internal strokes in general. %We validate the choice of our proposed segmentation method from a classification point-of-view, as well as, determine the optimal levels of digitization needed for accurate representation.
+
+\emph{Human Performance.} Our extensive user studies empirically validate the difficulty of this fine-grained recognition problem and indicate that SAR can improve upon human performance. All the compiled data (datasets and user studies) and source code will be made publicly available to enable further research on this exciting topic and to allow for quantitative comparison with future methods.
+
+
+%However, since styles change dynamically with time, we believe that this uniqueness can
+
+%The low-level image features we use to describe stroke segments, yet simple, are
+
+
+
+%where sketches of different artists are analyzed with the aim to discriminate their authorship.
+%
+%It was initiated by first asking whether strokes are unique to the artist who draws them and then extended to experiment how such uniqueness can classify an authorship of a sketch. In our method, we extract inherent characteristics on boundary and internal curve strokes and use them to represent each sketch as a histogram of universal stroke segments. To show the discriminative power of SAR, we conducted extensive classification experiments on several datasets, which we form using sketches of collaborating artists. Experimental classification results across all datasets were much higher than random choice. This ,in turn, validates the effectiveness of SAR and proved that artists exhibit uniqueness and consistency in their sketches. Moreover, SAR showed competency in detecting fraudulent sketches with 95\% accuracy when tested on the fraud dataset compiled in this work. To reflect on the challenge of recognition involved, we conducted a couple of user studies designed using the same learning circumstances available for training SAR and used them to compare human performance with the computational results of SAR. Results showed that SAR outperformed human abilities in sketch authorship recognition.
+%
+%We have also experimented SAR on different techniques with the aim to come up with the best computational model with the highest classification accuracy among different datasets. We share our experimental results of a number of algorithmic variations involved in the development of SAR. First, We have tested our proposed segmentation algorithm against random and manual segmentation methods to validate its effectiveness. Moreover, we found that the silhouettes of a sketch convey lots of information regarding authorship of a sketch when compared to all the strokes. Finally, we experimentally proved how using digitization techniques for strokes extraction can affect the originality of the sketch.
+
+
+%\noindent{\bf Limitations and future directions.  }
+%
+%- Internal stroke extraction takes place in a pre-processing step.
+%
+%- we need digitization techniques that do not cause any changes in the artistic style
+%
+%- Need of large scale datasets across multiple artists over time and using same artists, different constraints, add training
+%
+%- Add more local features that can reflect new aspects of artist's style
+%
+%- combine local features with global shape information (will this give more information!)
+%
+%- We are interested in applying SAR to 3D curves and shapes in the future
+%
+%- Design useful applications (list examples) such as artistic fraud detection, design patents and brand marking
+\vspace{-3mm}
+\paragraph{Future Work} We aim to improve the discriminative nature of SAR by improving the quality of the learned universal stroke segment dictionary. One way to do this is to investigate how strokes are actually generated by the artists. This can be done by tracking their hand movements and how they hold the pencil/pen while sketching. We believe this will provide us with more information about an artist's style of sketching. Although the segmentation process is currently viewed as a pre-processing step in SAR, we aim to investigate how supervised information (artist labels) can be incorporated in this process (possibly through supervised dictionary learning) in order to produce stroke segments that are inherently discriminative. Furthermore, we will extend our compiled datasets to more sketches and contributing artists.
+
+
+%We have presented a new method of shape representation and authorship classification. It is based on analyzing local features of the sketch's silhouettes and internal strokes which are then used to represent a sketch as a histogram of universal strokes segments. The later representation is used in a k-NN based authorship classification model. The proposed method is applicable to sketches in various sizes, and invariant to non-rigid motion, scaling and rotation. Experimental results on a number of datasets we compile in this work demonstrate that our method has a good performance on authorship discrimination and classification.
+
+
+
+
+%Towards the end of this paper we demonstrate a couple of applications which are built using the best performing computational model. The first one is an artistic fraud detection application that is based on one of the datasets we are providing. The second application is a training program that allows artists, designers and animators to test their affinity to any given artist, whose works have been incorporated into the machine learning part of the program, it is also designed based on one of our datasets.
